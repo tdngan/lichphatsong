@@ -17,9 +17,9 @@ function ftp_directory_exists($ftp, $dir)
     return false; 
 } 
 //kết nối FTP server
-			$ftp_server='118.69.168.51';
-			$ftp_user_name='bbt';
-			$ftp_user_pass='mitsumi1qazXSW@';
+			$ftp_server='';
+			$ftp_user_name='';
+			$ftp_user_pass='';
 			
 			$ftp_conn=ftp_connect($ftp_server) or die("Could not connect to $ftp_server");
 			$login=ftp_login($ftp_conn,$ftp_user_name,$ftp_user_pass);
